@@ -7,5 +7,5 @@ if($saldo <= $saque) {
     $saldo - $saque;
     echo 'Sacado R$' . $saque . "\n";
 } else {
-    echo "valor do saque maior que o saldo|n";
+    echo "valor do saque maior que o saldo\n";
 }
